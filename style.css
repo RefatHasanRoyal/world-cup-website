@@ -261,7 +261,7 @@ footer ul li {
 /* tablet device */
 
 /* common style */
-@media only screen and (min-width: 376px) and (max-width: 834px) {
+@media only screen and (min-width: 576px) and (max-width: 834px) {
     * {
         margin: 0;
         padding: 0;
@@ -500,7 +500,7 @@ footer ul li {
 
     /*---------- mobile device ----------*/
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     /* common style - mobile*/
     * {
@@ -514,9 +514,7 @@ footer ul li {
         width: 375px;
     }
      /* header style - mobile */
-    header {
-        
-    }
+
      .banner-section {
         width: 334px;
         height: 472px;
