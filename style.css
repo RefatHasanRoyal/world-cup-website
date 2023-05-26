@@ -512,9 +512,10 @@ footer ul li {
         background-color: #FFFFFF;
         font-family: 'Poppins', sans-serif;
         width: 375px;
+        margin: 0 auto;
     }
      /* header style - mobile */
-     
+
      .banner-section {
         width: 334px;
         height: 472px;
