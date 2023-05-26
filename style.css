@@ -506,7 +506,7 @@ footer.social-icons {
 
     /*---------- mobile device ----------*/
 
-@media only screen and (min-width: 375px) and (max-width: 575px) {
+@media only screen and (max-width: 575px) {
 
     /* common style - mobile*/
     * {
@@ -517,7 +517,7 @@ footer.social-icons {
     body {
         background-color: #FFFFFF;
         font-family: 'Poppins', sans-serif;
-        width: 375px;
+        width: 575px;
         margin: 0 auto;
     }
      /* header style - mobile */
@@ -704,8 +704,9 @@ footer.social-icons {
      /* footer styles - mobile */
 
      footer {
+        width: 575px;
         max-width: 575px;
-        height: 412px;
+        /* height: 412px; */
         background-color: #161616;
         margin: 0 auto;
         margin-top: 25px;
@@ -754,5 +755,6 @@ footer.social-icons {
         justify-content: center;
         gap: 20px;
         padding: 25px 0px;
+        margin: 0 auto;
     }
 }
