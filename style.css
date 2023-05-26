@@ -704,7 +704,7 @@ footer.social-icons {
      /* footer styles - mobile */
 
      footer {
-        width: 100%;
+        width: 575px;
         height: 412px;
         background-color: #161616;
         margin: 0 auto;
@@ -749,10 +749,10 @@ footer.social-icons {
         display: block;
         width: 375px;
         color: #FFFFFF;
-        font-size: 20px;
+        font-size: 25px;
         display: flex;
         justify-content: center;
         gap: 20px;
-        padding-top: 30px;
+        padding: 25px 0px;
     }
 }
