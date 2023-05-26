@@ -263,7 +263,7 @@ footer.social-icons {
 /* tablet device */
 
 /* common style */
-@media only screen and (min-width: 576px) and (max-width: 834px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     * {
         margin: 0;
         padding: 0;
@@ -278,8 +278,8 @@ footer.social-icons {
     /* header style - tablet */
 
     .banner-section {
-        max-width: 734px;
-        max-height: 398px;
+        width: 734px;
+        height: 398px;
         background: #161616;
         border-radius: 30px;
         margin: 0 auto;
@@ -506,7 +506,7 @@ footer.social-icons {
 
     /*---------- mobile device ----------*/
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 767px) {
 
     /* common style - mobile*/
     * {
@@ -705,7 +705,6 @@ footer.social-icons {
 
      footer {
         width: 575px;
-        max-width: 575px;
         /* height: 412px; */
         background-color: #161616;
         margin: 0 auto;
