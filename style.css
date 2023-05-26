@@ -255,13 +255,15 @@ footer ul li {
     color: #B9B9B9;
     list-style: none;
 }
-
+footer.social-icons {
+    display: none;
+}
 /*---------- responsive layout ----------*/
 
 /* tablet device */
 
 /* common style */
-@media only screen and (min-width: 376px) and (max-width: 834px) {
+@media only screen and (min-width: 576px) and (max-width: 834px) {
     * {
         margin: 0;
         padding: 0;
@@ -497,11 +499,14 @@ footer ul li {
         list-style: none;
         line-height: 10px;
     }
+    footer.social-icons {
+        display: none;
+    }
 }
 
     /*---------- mobile device ----------*/
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 575px) {
 
     /* common style - mobile*/
     * {
@@ -739,5 +744,15 @@ footer ul li {
         color: #B9B9B9;
         list-style: none;
         line-height: 10px;
+    }
+    footer .social-icons {
+        display: block;
+        width: 375px;
+        color: #FFFFFF;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 30px;
     }
 }
