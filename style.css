@@ -704,7 +704,7 @@ footer.social-icons {
      /* footer styles - mobile */
 
      footer {
-        width: 575px;
+        max-width: 575px;
         height: 412px;
         background-color: #161616;
         margin: 0 auto;
