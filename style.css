@@ -283,7 +283,7 @@ footer ul li {
     color: #B9B9B9;
     list-style: none;
 }
-footer.social-icons {
+footer .social-icons {
     display: none;
 }
 /*---------- responsive layout ----------*/
@@ -572,7 +572,7 @@ footer.social-icons {
         list-style: none;
         line-height: 10px;
     }
-    footer.social-icons {
+    footer .social-icons {
         display: none;
     }
 }
