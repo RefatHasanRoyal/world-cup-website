@@ -71,9 +71,6 @@ body {
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-play-state: running;
-
-
-    /* animation-duration: alternate; */
 }
 .banner-button .fa-greater-than {
     color: #FFFFFF;
@@ -572,7 +569,7 @@ footer.social-icons {
     }
     .banner-text {
         width: 100%;
-        padding: 20px 50px 10px;
+        padding: 30px 50px 10px;
         text-align: center;
     }
     .banner-text h2 {
@@ -619,7 +616,7 @@ footer.social-icons {
         height: 245px;
         position: absolute;
         left: 75px;
-        top: 10px;
+        top: 0;
     }
 
     /* main section style  - mobile */
