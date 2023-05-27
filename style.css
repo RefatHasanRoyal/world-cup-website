@@ -487,10 +487,52 @@ footer.social-icons {
         color: #FFFFFF;
         margin-top: 50px;
     }
-    .matches  {
-        display: none;
+
+    /* matches style - tablet */
+
+    .matches {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
     }
-    
+    .match {
+        width: 356px;
+        height: 242px;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        padding: 53px 30px;
+    }
+    .match h2 {
+        font-weight: 600;
+        font-size: 20px;
+        color: #161616;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .match p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #161616;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .match-flag {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+    .match-flag h3 {
+        font-weight: 700;
+        font-size: 16px;
+        color: #161616;
+    }
+    .match-flag img {
+        width: 94px;
+        height: 55px;
+    }
+
     /* footer style - tablet */
 
     footer {
@@ -730,10 +772,15 @@ footer.social-icons {
     button.view-all {
         display: none;
     }
-    .matches  {
-        display: none;
-    }
 
+    /* matches style - mobnile */
+
+    .matches {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
      /* footer style - mobile */
 
      footer {
@@ -784,8 +831,11 @@ footer.social-icons {
         font-size: 25px;
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 30px;
         padding: 25px 0px;
         margin: 0 auto;
+    }
+    footer .social-icons a {
+        color: #FFFFFF;
     }
 }
