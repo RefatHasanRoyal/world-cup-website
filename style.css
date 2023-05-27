@@ -1,4 +1,4 @@
-/* common style */
+/* common styles */
 * {
     margin: 0;
     padding: 0;
@@ -73,6 +73,7 @@ body {
 }
 
 /* main section style */
+
 .main-content {
     width: 1320px;
     margin: 0 auto;
@@ -82,6 +83,7 @@ body {
 }
 
 /* side navigation style  */
+
 .side-nav {
     width: 312px;
     height: 312px;
@@ -116,7 +118,7 @@ body {
     color: #161616;
 }
 
-/* blog styles */
+/* blog style */
 
 .blogs {
     display: grid;
@@ -176,7 +178,8 @@ body {
 button.view-all {
     display: none;
 }
-/* matches styles */
+
+/* matches style */
 
 .matches {
     display: grid;
@@ -220,7 +223,7 @@ button.view-all {
     height: 55px;
 }
 
-/* footer styles */
+/* footer style */
 
 footer {
     width: 1600px;
@@ -260,10 +263,11 @@ footer.social-icons {
 }
 /*---------- responsive layout ----------*/
 
-/* tablet device */
+/*---------- tablet device ----------*/
 
-/* common style */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    /* common styles */
     * {
         margin: 0;
         padding: 0;
@@ -290,7 +294,7 @@ footer.social-icons {
         overflow: hidden;
     }
     .banner-text {
-        max-width: 60%;
+        width: 60%;
     }
     .banner-text h2 {
         font-weight: 700;
@@ -328,7 +332,7 @@ footer.social-icons {
         margin-left: 10px;
     }
     .banner-image {
-        max-width: 40%;
+        width: 40%;
         position: relative;
     }
     .banner-image img {
@@ -338,10 +342,11 @@ footer.social-icons {
         left: -45px;
         top: -141px;
     }
+    
     /* main section style  - tablet */
 
     .main-content {
-        max-width: 734px;
+        width: 734px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -351,6 +356,7 @@ footer.social-icons {
     }
 
     /* side navigation style - tablet  */
+
     .side-nav {
         width: 100%;
         height: auto;
@@ -384,7 +390,7 @@ footer.social-icons {
         color: #161616;
     }
 
-    /* blog styles - tablet */
+    /* blog style - tablet */
 
     .blogs {
         display: grid;
@@ -460,7 +466,7 @@ footer.social-icons {
         display: none;
     }
     
-    /* footer styles - tablet */
+    /* footer style - tablet */
 
     footer {
         width: 834px;
@@ -508,7 +514,8 @@ footer.social-icons {
 
 @media only screen and (max-width: 767px) {
 
-    /* common style - mobile*/
+    /* common styles - mobile*/
+    
     * {
         margin: 0;
         padding: 0;
@@ -517,10 +524,11 @@ footer.social-icons {
     body {
         background-color: #FFFFFF;
         font-family: 'Poppins', sans-serif;
-        width: 575px;
+        width: 375px;
         margin: 0 auto;
     }
-     /* header style - mobile */
+     
+    /* header style - mobile */
 
      .banner-section {
         width: 334px;
@@ -634,7 +642,7 @@ footer.social-icons {
         color: #161616;
     }
 
-    /* blog styles - mobile */
+    /* blog style - mobile */
 
     .blogs {
         display: grid;
@@ -701,11 +709,10 @@ footer.social-icons {
         display: none;
     }
 
-     /* footer styles - mobile */
+     /* footer style - mobile */
 
      footer {
-        width: 575px;
-        /* height: 412px; */
+        width: 100%;
         background-color: #161616;
         margin: 0 auto;
         margin-top: 25px;
